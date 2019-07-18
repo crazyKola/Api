@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * Class that record test case infomation
- * Created by zhangyang33 on 2017/9/18.
+ * Created by Garyson on 2019/7/18.
  */
 public class RecordHandler {
 

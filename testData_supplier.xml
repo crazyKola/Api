@@ -2,16 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <!-- <suite name="Suite1" parallel="methods" thread-count="5" verbose="1"> -->
 <suite name="New hotel - man - supplier">
-    <parameter name="workBook" value="src/main/java/httpTestData/movie.xlsx"></parameter>
+    <parameter name="workBook" value="src/main/java/testData/movie.xlsx"></parameter>
     <test name="test">
         <classes>
-            <class name="testCase.HTTPReqGenTest">
+            <class name="runTestCase.HTTPReqGenTest">
                 <methods>
                     <include name="api_test"></include>
                 </methods>
             </class>
-
-
         </classes>
     </test>
     <listeners>

@@ -4,8 +4,9 @@ import java.util.*;
 
 /**
  * Class that sort HashMap
- * Created by zhangyang33 on 2017/11/1.
+ * Created by Garyson on 2019/7/18.
  */
+
 public class Utils {
 
     /**
@@ -28,11 +29,9 @@ public class Utils {
                 else if (c1<c2){
                     order = -1;
                 }
-
                 return order;
             }
         });
-
         return list;
     }
 }

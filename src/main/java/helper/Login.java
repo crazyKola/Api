@@ -26,8 +26,9 @@ import java.util.*;
 
 
 /**
- * Created by zhangyang33 on 2018/3/12.
+ * Created by Garyson on 2019/7/18.
  */
+
 public class Login {
     Map<String, String> pageParam = new HashMap<>();
 
@@ -66,7 +67,7 @@ public class Login {
         byte[] data = new byte[1024];
         int len = 0;
         InputStream inputStream = response.getEntity().getContent();
-        FileOutputStream fileOutputStream = new FileOutputStream("src/main/java/httpTestData/verifyCode.jpeg");
+        FileOutputStream fileOutputStream = new FileOutputStream("src/main/java/testData/verifyCode.jpeg");
 
         while ((len = inputStream.read(data)) != -1) {
             fileOutputStream.write(data, 0, len);
@@ -85,7 +86,7 @@ public class Login {
                 throw e;
             }
         }
-//        File imageFile = new File("src/main/java/httpTestData/verifyCode.jpeg");
+//        File imageFile = new File("src/main/java/testData/verifyCode.jpeg");
 //        Tesseract tesseract = new Tesseract();
 //        tesseract.setDatapath("D:/tessdata");
 //        tesseract.setLanguage("fontyp");

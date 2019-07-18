@@ -8,6 +8,7 @@ public class ConnectDbUtil {
      * @Name: getDbConn
      * @Description: 建立数据库连接，返回连接对象
      */
+
     public static Connection getDbConn(String username, String password, String ip, String dbname) {
         String driverName = "driverName";
         String dburl = "jdbc:oracle:thin:@" + ip + ":1521:" + dbname;

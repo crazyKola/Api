@@ -1,4 +1,4 @@
-package testCase;
+package runTestCase;
 
 import excelUtil.*;
 import httpUtil.HTTPReqGenerate;
@@ -21,8 +21,9 @@ import java.util.*;
 
 /**
  * Class that perform test cases
- * Created by zhangyang33 on 2017/9/18.
+ * Created by Garyson on 2019/7/18.
  */
+
 public class HTTPReqGenTest implements ITest {
     private HttpResponse response;
     private DataReader myInputData;

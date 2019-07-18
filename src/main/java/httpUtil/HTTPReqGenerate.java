@@ -31,8 +31,9 @@ import java.util.Map;
 
 /**
  * Class that operate http request
- * Created by zhangyang33 on 2017/9/20.
+ * Created by Garyson on 2019/7/20.
  */
+
 public class HTTPReqGenerate {
 
     /**
