@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/.idea" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/testCase/HTTPReqGenTest.java" charset="UTF-8" />
+    <file url="jar://D:/SourceCode/repository/com/jd/movie/jd-movie-soa/2.0.11-SNAPSHOT/jd-movie-soa-2.0.11-20180621.060532-3-sources.jar!/com/jd/movie/soa/service/FilmSoaService.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
